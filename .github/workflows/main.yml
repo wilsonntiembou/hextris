@@ -10,7 +10,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: files.000webhost.com
-        username: projetwilson 
-        password: ${{ secrets.PASSWORD_SECRET }}
+        server: ${{ secrets.SECRET_PROJET_HEXTRIS }}
+        username: ${{ secrets.SECRET_PROJET_HEXTRIS }}
+        password: ${{ secrets.SECRET_PROJET_HEXTRIS }}
         server-dir : public_html/
