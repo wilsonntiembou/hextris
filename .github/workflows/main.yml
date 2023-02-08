@@ -12,5 +12,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: projetwilson 
-        password: Commissaire55@
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir : public_html/
